@@ -5,3 +5,4 @@ This is my first time
 * yuichi
 
 ## directory
+*first
