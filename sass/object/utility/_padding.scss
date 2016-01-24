@@ -1,0 +1,9 @@
+@for $i from 0 through 10 {
+	.p-#{5 * $i}{padding: 5 * $i + px;}
+	.p-r#{5 * $i}{padding-right: 5 * $i + px;}
+	.p-l#{5 * $i}{padding-left: 5 * $i + px;}
+	.p-h#{5 * $i}{padding-left: 5 * $i + px; padding-right: 5 * $i + px;}
+	.p-t#{5 * $i}{padding-top: 5 * $i + px;}
+	.p-b#{5 * $i}{padding-bottom: 5 * $i + px;}
+	.p-v#{5 * $i}{padding-top: 5 * $i + px; padding-bottom: 5 * $i + px;}
+}

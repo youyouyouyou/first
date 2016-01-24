@@ -1,0 +1,9 @@
+@for $i from 0 through 10 {
+	.m-#{5 * $i}{margin: 5 * $i + px;}
+	.m-r#{5 * $i}{margin-right: 5 * $i + px;}
+	.m-l#{5 * $i}{margin-left: 5 * $i + px;}
+	.m-h#{5 * $i}{margin-left: 5 * $i + px; margin-right: 5 * $i + px;}
+	.m-t#{5 * $i}{margin-top: 5 * $i + px;}
+	.m-b#{5 * $i}{margin-bottom: 5 * $i + px;}
+	.m-v#{5 * $i}{margin-top: 5 * $i + px; margin-bottom: 5 * $i + px;}
+}
